@@ -99,12 +99,12 @@ const ThreadWelcomeSuggestions: FC = () => {
       </ThreadPrimitive.Suggestion>
       <ThreadPrimitive.Suggestion
         className="hover:bg-muted/80 flex max-w-sm grow basis-0 flex-col items-center justify-center rounded-lg border p-3 transition-colors ease-in"
-        prompt="What is UAPPLY AI Assistant?"
+        prompt="What the best university to apply to in Africa?"
         method="replace"
         autoSend
       >
         <span className="line-clamp-2 text-ellipsis text-sm font-semibold">
-          What is UAPPLY AI Assistant?
+          What the best university to apply to in Africa?
         </span>
       </ThreadPrimitive.Suggestion>
     </div>
