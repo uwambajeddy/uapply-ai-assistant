@@ -142,7 +142,6 @@ export async function POST(req: Request) {
     1. Summarize all the information you collected in a clear, organized format
     2. Ask the user to confirm if all details are correct
     3. Tell them to say "yes" or "confirm" if everything looks good, or to let you know what needs to be corrected
-    4. Once confirmed, in your next message be consise and make sure to include "your application information is now complete." to indicate successful submission
     
     Example confirmation format:
     "Thank you for providing all the information! Let me summarize your application details:
