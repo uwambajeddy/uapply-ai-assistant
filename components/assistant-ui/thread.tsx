@@ -73,12 +73,12 @@ const ThreadWelcome: FC = () => {
   return (
     <ThreadPrimitive.Empty>
       <div className="flex w-full max-w-[var(--thread-max-width)] flex-grow flex-col">
-        <div className="flex w-full flex-grow flex-col items-center justify-center">
-          <p className="mt-4 font-medium">
+        <div className="flex w-full flex-col flex-grow  items-center justify-center">
+          <p className="mt-4 font-medium pb-15">
             Welcome to UAPPLY x African Leadership University
           </p>
+          <ThreadWelcomeSuggestions />
         </div>
-        <ThreadWelcomeSuggestions />
       </div>
     </ThreadPrimitive.Empty>
   );
